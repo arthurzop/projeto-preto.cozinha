@@ -1,0 +1,153 @@
+*{
+    font-family: "JetBrains Mono", monospace;
+}
+
+body{
+    background-color: #F4EBE2;
+    color: #000;
+    size: 100% !important;
+}
+
+/*font weights*/
+
+#extrabold{
+    font-weight: 800;
+}
+
+#bold{
+    font-weight: 700;
+}
+
+#medium{
+    font-weight: 500;
+}
+
+/*
+semibold = 600
+regular = 400
+*/
+
+#light{
+    font-weight: 300;
+}
+
+#extralight{
+    font-weight: 200;
+}
+
+#thin{
+    font-weight: 100;
+}
+
+/*----------------------*/
+nav, footer{
+    background-color: #141414;
+    z-index: 0;
+}
+
+
+hr{
+    border: solid 3px #000;
+}
+
+li{
+    font-size: 24px;
+}
+
+button{
+    background-color: rgba(184, 184, 184, 0.5) !important;
+}
+
+button:hover{
+    background-color: rgba(184, 184, 184, 0.8) !important;
+}
+
+#background1>h1{
+    font-size: 35px;
+}
+
+#horarios>p{
+    font-size: 26px;
+}
+
+#dias>p, #txt{
+    font-size: 25px ;
+}
+
+#endereco>hr,#endereco>h1, #background1,#endereco1{
+    position: absolute;
+}
+
+#endereco>hr{
+    z-index: 0;
+}
+
+#endereco>h1, #menu>h1{
+    z-index: 1;
+    background-color: #F4EBE2;
+}
+
+#endereco1>h1, #background1{
+    background: rgba(51, 51, 51, 0.95);
+
+}
+
+#menu1>p, #menu2>p, #drinks1>p{
+    font-size: 20px;
+}
+
+#pag3{
+    background-image: url(img/Preto-053.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100% !important;
+}
+
+#divform{
+    float: right !important;
+    height: 100vh !important;
+}
+
+#txt, #menu1, #menu2, #drink1{
+    line-height: 200%;
+}
+
+#logo{
+    font-size: 40px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+#img1{
+    margin-top: -20%;
+}
+
+#background1{
+    z-index: 1;
+    left: 10% !important;
+    top: 55%;
+}
+
+#div1{
+    z-index: 0;
+}
+
+#endereco1{
+    z-index: 4;    
+}
+
+#fachada{
+    z-index: 5;
+    margin-bottom: -50%;
+}
+
+#img2{
+    height: 355px;
+} 
+
+#hr1{
+    width: 98%;
+}
+
+#horarios, #menu1, #menu2, #drink{
+    background-color: #f8f2eb;
+}
