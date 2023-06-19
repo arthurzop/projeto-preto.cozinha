@@ -1,11 +1,10 @@
 *{
-    font-family: "JetBrains Mono", monospace;
+    font-family: "JetBrains Mono",monospace;
 }
 
 body{
     background-color: #F4EBE2;
     color: #000;
-    size: 100% !important;
 }
 
 /*font weights*/
@@ -44,7 +43,6 @@ nav, footer{
     background-color: #141414;
     z-index: 0;
 }
-
 
 hr{
     border: solid 3px #000;
@@ -104,7 +102,6 @@ button:hover{
 }
 
 #divform{
-    float: right !important;
     height: 100vh !important;
 }
 
